@@ -1,0 +1,22 @@
+liavst2
+
+=====================================================
+= README for ex4: Panorama Registration & Stitching =
+=====================================================
+
+
+===========================
+= List Of Submitted Files =
+===========================
+
+
+- README - this file.
+- sol4.py - all required functions implemented
+- sol4_utils.py - helper functions
+- external - directory containing my panorama images
+	- levi1.jpg
+	- levi2.jpg
+	- levi3.jpg
+	- levi_panorama.jpg - the resulting panorama
+- my_panorama.py - generates the panorama from external directory
+

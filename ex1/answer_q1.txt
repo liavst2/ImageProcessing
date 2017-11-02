@@ -1,0 +1,6 @@
+
+Answer for Q1:
+-------------------------
+
+The procedure will fail because we will get division by zero when
+calculating the q values.

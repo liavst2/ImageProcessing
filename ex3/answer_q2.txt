@@ -1,0 +1,11 @@
+
+Answer to Q2:
+============
+
+The bigger the gaussian filter, the better the blending is in
+the environment. The effect is noticed only along the edges of
+the mask, so other parts of both images remain the same.
+For bigger filter, we have less high frequencies remaining so
+we get spreader combination of the pixels. Thus the edges of
+the mask are more difficult to identify (As you'll see in
+my blending_example1)

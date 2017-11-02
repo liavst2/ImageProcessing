@@ -1,0 +1,25 @@
+liavst2
+
+=====================================================
+= README for ex3: Image Pyramids & Pyramid Blending =
+=====================================================
+
+
+===========================
+= List Of Submitted Files =
+===========================
+
+
+- README - this file.
+- answer_q1.txt
+- answer_q2.txt
+- answer_q3.txt
+- sol3.py - contains the implementation of all function
+- blend - directory which contains the images for examples 1,2
+    - stat1.jpg
+    - trump1.jpg     =>     for blending_example1
+    - mask1.jpg
+
+    - race2.jpg
+    - givat2.jpg     =>     for blending_example2
+    - mask2. jpg

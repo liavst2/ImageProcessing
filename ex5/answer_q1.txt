@@ -1,0 +1,24 @@
+
+Answer to Q1:
+============
+
+The idea is as follows.
+Our corruption function will, randomly, choose an image size
+from a given list of image sizes and resize the current-iteration
+image to that size. We slightly modify this function so it
+returns not only the corrupted image, but the size it chose
+(Lets call this size corrupted_size). Next, instead of extracting
+corresponding patches of the same size in each iteration,
+we will extract crop_size sized patches from the clean images,
+and "adjusted" crop_size sized patches from the corrupted images,
+where the adjustment is calculated from the returned corrupted_size.
+Then, for each "adjusted" crop_size sized patch we will use linear
+interpolation to resize it to crop_size, and then add it to the
+"source" batch.
+In addition to that, we add a wrapper function to the restore_image
+function, which takes three arguments - corrupted_image, clean_size
+and num_channels. clean-size is the size of one of the clean images
+in the in the repository. This wrapper function will resize
+corrupted_image to the size of clean_size, and then calls restore_image
+with the new cropped image and num_channels, and returns the prediction
+restore_image has returned.

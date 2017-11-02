@@ -1,0 +1,9 @@
+
+Answer for Q1:
+-------------
+
+The derivation done by the convolution vector [1, 0, -1]
+is an approximation, and might lose some data.
+However, derivation done by the fourier transform gives
+an exact calculation, up to a constant, and therefore
+gives a much closer and exact result.

@@ -1,0 +1,8 @@
+
+Answer to Q1:
+============
+
+Laplacian pyramid is like a band pass filter. So multiplying each
+level with a different value allows us to highlight certain
+sections in the frequency domain, meaning that we try to control
+on certain sections in the frequency domain.

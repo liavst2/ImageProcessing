@@ -1,0 +1,15 @@
+liavst2
+
+========================================================
+==== README for ex2: Fourier Transform & Convolution ===
+========================================================
+
+================================
+=== List of submitted files ====
+================================
+
+- README - this file.
+- answer_q1.txt - answer to Q1 question in the pdf.
+- answer_q2.txt - answer to Q2 question in the pdf.
+- answer_q3.txt - answer to Q3 question in the pdf.
+- sol2.py - contains the implementation of the functions.

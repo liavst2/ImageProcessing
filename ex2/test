@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+import sys, subprocess, os, shutil
+
+try:
+  shutil.rmtree('current')
+except:
+  pass
+os.makedirs('current')
+with open('current/__init__.py', 'w') as f:
+  f.write(' ')
+subprocess.check_call(['unzip', sys.argv[1], '-d', 'current/'])
+shutil.copytree('external','current/external')
+import ex2_presubmit
+ex2_presubmit.presubmit()

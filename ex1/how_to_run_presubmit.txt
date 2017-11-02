@@ -1,0 +1,17 @@
+Linux:
+
+  test sol1.zip
+
+
+
+Windows:
+  
+  1. unzip your sol1.zip to a folder named 'current'
+
+  2. copy the 'external' folder to 'current'
+
+  3. run python3 (in the same directory as ex1_presubmit)
+
+    a. import ex1_presubmit
+
+    b. ex1_presubmit.presubmit()

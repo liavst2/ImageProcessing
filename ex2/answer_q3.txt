@@ -1,0 +1,10 @@
+
+Answer for Q3:
+-------------
+
+We can vividly observe the black frame around the
+output image of blur_spatial (the convolution blur),
+while blur_fourier return an unframed image. This is
+because of the "same" argument we add in convolve2d,
+which, by its definition, returns only the central
+part of the convolution.

@@ -1,0 +1,8 @@
+
+Answer to Q3:
+============
+
+The more levels of the pyramid, the better blending in the environment.
+As we go downwards the pyramid we get more low frequencies participating
+in the reconstruction procedure, which makes the blending more softer
+and absorb the edges in the environment more efficiently.

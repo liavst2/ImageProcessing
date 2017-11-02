@@ -1,0 +1,15 @@
+
+Answer for Q2:
+-------------
+
+If we remove the ifftshift, the image will be cut into
+pieces where every piece will be in a different place
+from where it should be. This happens because we did
+not shift the image itself, so its origin stayed at 
+the top left corner, while our kernel is centered in
+the center of the image. Because the image is not shifted,
+we will get its division to 4 quarters, each one located 2
+places clockwise from its original place. For example, the
+top right quarter will be the bottom left, etc.
+The 4 quarters will be blurred, because of the Gaussian
+filter.
